@@ -1,0 +1,121 @@
+:root{
+    --main-bg-color: #1C1E28;
+    --second-bg-color:#191921;
+    --main-text-color: #fff;
+    --second-text-color: #61DAFB;
+}
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+#fundo{
+    background-color: var(--main-bg-color);
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, header{
+    background-color: var(--second-bg-color);
+
+    width: 20rem;
+    height: 20rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 1vh;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.header{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+.inputs{
+    max-width: 16rem;
+    
+}
+
+#user{
+    color: var(--main-text-color);
+    font-size: 1.1rem;
+
+    background-color: #252A36;
+    padding: .65rem;
+
+    border-radius: .75vh;
+}
+
+.inputUser input{
+    border: none;
+    border-radius: 1vh;
+
+    outline: none;
+    padding: .45rem;
+
+    background: #252A36;
+    color: var(--main-text-color);
+}
+
+.inputUser input::placeholder{
+    color: var(--main-text-color);
+    font-size: .85rem;
+}
+
+.inputUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: .45rem;
+
+    margin: 1rem 0;
+}
+
+#btnCustom{
+    background-color: #526EFF;
+    color: var(--main-text-color);
+}
+
+#btnCustom:hover{
+    background-color: #627dff;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .15rem;
+}
+
+.button span{
+    color: var(--main-text-color);
+
+    font-size: .85rem;
+}
+
+.button a{
+    font-size: .85rem;
+    text-decoration: none;
+}
+
+.button a:hover{
+    text-decoration: underline;
+}
+
+.logo i {
+    color: var(--second-text-color);
+    font-size: 4rem;
+}
+
+
+
+
