@@ -4,10 +4,10 @@ function verificarLogin(){
     const senha = document.getElementById('senha').value
     
     if(email == 'admin' && senha == 'admin'){
-        window.location.assign('./app.html')
+        window.location.assign('./?pg=app')
         alert('Redirecionando')
     }else{
-        alert("Você não possui login. Por favor registre-se!")
+        alert("Credenciais inválidas!")
     }
     
 }
