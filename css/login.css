@@ -11,17 +11,20 @@
 
 #fundo{
     background-color: var(--main-bg-color);
+}
+
+.center{
     width: 100%;
-    height: 100vh;
-    
+    height: 80vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
 }
 
 .header, header{
-    background-color: var(--second-bg-color);
-
     width: 20rem;
     height: 20rem;
 
@@ -31,13 +34,7 @@
     flex-direction: column;
 
     border-radius: 1vh;
-    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
-
-.header{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
-
 
 .inputs{
     max-width: 16rem;
@@ -114,6 +111,53 @@
 .logo i {
     color: var(--second-text-color);
     font-size: 4rem;
+}
+
+footer{
+    color: var(--main-text-color);
+
+    position: absolute;
+    bottom: 1px;
+    text-align: center;
+}
+
+.all{
+    display: flex;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+    gap: 2rem;
+    background-color: var(--second-bg-color);
+}
+
+@media (max-width: 780px){
+    .fundo{
+        display: none;
+    }
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: var(--second-bg-color);
+}
+.topoDentro{
+    display: flex;
+    align-items: center;
+
+    margin: 0 2rem;
+
+}
+
+.topoDentro h2{
+    color: var(--main-text-color);
+    margin: 0;
+}
+
+.topoDentro i{
+    font-size: 1.7rem;
+    color: var(--second-text-color);
 }
 
 

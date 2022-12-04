@@ -4,10 +4,11 @@ function verificarLogin(){
     const senha = document.getElementById('senha').value
     
     if(email == 'admin' && senha == 'admin'){
-        window.location.assign('./?pg=app')
+        window.location.assign('./app.php')
         alert('Redirecionando')
     }else{
         alert("Credenciais inválidas!")
+        window.location.href = './index.php'
     }
     
 }
