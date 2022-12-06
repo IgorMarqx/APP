@@ -16,14 +16,14 @@
 </head>
 <body id="fundo">
     <div class="topo">
-        <?= include_once('../topo.php')?>
+        <?= include_once('../includes/topo.php')?>
         <h4 style="margin: 0 2rem; color: #fff;">Registro</h4>
     </div>
 
     <div class="center">
         <?= include_once('./cadastro.include.php')?>
         
-        <?= include_once('../footer.php')?>
+        <?= include_once('../includes/footer.php')?>
     </div>
 
 </body>

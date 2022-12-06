@@ -20,16 +20,15 @@
 
 <body id="fundo">
     <div class="topo">
-        <?= include_once('./topo.php') ?>
+        <?= include_once('./includes/topo.php') ?>
         <h4 style="margin: 0 2rem; color: #fff;">Login</h4>
     </div>
+    <!-- AREA DE CONTEUDO -->
     <div class="center">
-
-
         <?= include_once('./login.php'); ?>
 
         <?php
-        include_once("footer.php")
+            include_once("./includes/footer.php")
         ?>
     </div>
 

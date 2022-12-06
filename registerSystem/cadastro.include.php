@@ -16,11 +16,6 @@
                         </div>
 
                         <div class="inputUser">
-                        <i class="fa-solid fa-user" id="user"></i>
-                            <input name="usuario" id="email" type="text" placeholder="Informe seu usuario" required autofocus>
-                        </div>
-
-                        <div class="inputUser">
                             <i class="fa-solid fa-lock" id="user"></i>
                             <input name="senha" id="senha" type="password" placeholder="Informe sua senha" required>
                         </div>

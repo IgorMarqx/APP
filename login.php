@@ -8,11 +8,11 @@
                     <i class="fa-brands fa-sketch"></i>
                 </div>
 
-                <form action="" method="POST">
+                <form action="./loginbd.php" method="POST">
                     <div class="inputs">
                         <div class="inputUser">
                             <i class="fa-solid fa-user" id="user"></i>
-                            <input name="usuario" id="email" type="text" placeholder="Informe seu usuário" required autofocus>
+                            <input name="email" id="email" type="email" placeholder="Informe seu e-mail" required autofocus>
                         </div>
 
                         <div class="inputUser">
@@ -21,11 +21,11 @@
                         </div>
 
                         <div class="d-grid gap-2 col-12 mx-auto">
-                            <button onclick="verificarLogin()" class="btn" id="btnCustom">Entrar</button>
+                            <input type="submit" value="Entrar" name="submit" class="btn" id="btnCustom"></input>
                         </div>
 
                         <div class="button">
-                            <span>Não possui cadastro?</span><a id="cadastrar" href="./loginSystem/cadastro.php">Cadastre-se!</a>
+                            <span>Não possui cadastro?</span><a id="cadastrar" href="./registerSystem/cadastro.php">Cadastre-se!</a>
                         </div>
                     </div>
                 </form>

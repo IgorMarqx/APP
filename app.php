@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <h1>ola</h1>
     <?php
 
     if (empty($_SERVER["QUERY_STRING"])) {
