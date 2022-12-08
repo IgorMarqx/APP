@@ -1,11 +1,18 @@
 <?php
 
-$db = mysqli_connect("localhost", "root", "");
+$dbHost = "localhost";
+$dbUser = "root";
+$dbPass = "";
+$dbName = "diamondapp";
 
-$con = mysqli_select_db($db, "diamondapp");
+$conn = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
 
-// if($con -> connect_errno){
+// $db = mysqli_connect("localhost","root","");
+
+// $conn = mysqli_select_db($db, "diamondapp");
+
+// if($conn){
 //     echo "Conectado com sucesso";
 // }else{
-//     echo "Falha ao conectar";
+//     echo "Impossivel fazer conexão com o BD";
 // }

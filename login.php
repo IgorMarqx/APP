@@ -5,7 +5,7 @@
         <div class="header">
             <header class="container">
                 <div class="logo">
-                    <i class="fa-brands fa-sketch"></i>
+                    <h1>Login</h1>
                 </div>
 
                 <form action="./loginbd.php" method="POST">
@@ -21,7 +21,7 @@
                         </div>
 
                         <div class="d-grid gap-2 col-12 mx-auto">
-                            <input type="submit" value="Entrar" name="submit" class="btn" id="btnCustom"></input>
+                            <input type="submit" value="Entrar" name="submit" class="btn btn-primary"></input>
                         </div>
 
                         <div class="button">

@@ -17,7 +17,7 @@
 <body id="fundo">
     <div class="topo">
         <?= include_once('../includes/topo.php')?>
-        <h4 style="margin: 0 2rem; color: #fff;">Registro</h4>
+        <h4 style="margin: 0 2rem; color: #fff; font-size: 2.5rem;">APP</h4>
     </div>
 
     <div class="center">

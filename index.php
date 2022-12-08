@@ -21,7 +21,7 @@
 <body id="fundo">
     <div class="topo">
         <?= include_once('./includes/topo.php') ?>
-        <h4 style="margin: 0 2rem; color: #fff;">Login</h4>
+        <h2 style="margin: 0 2rem; color: #fff; font-size: 2.5rem;">APP</h2>
     </div>
     <!-- AREA DE CONTEUDO -->
     <div class="center">
