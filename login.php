@@ -8,7 +8,7 @@
                     <h1>Login</h1>
                 </div>
 
-                <form action="./loginbd.php" method="POST">
+                <form action="./loginSystem/loginbd.php" method="POST">
                     <div class="inputs">
                         <div class="inputUser">
                             <i class="fa-solid fa-user" id="user"></i>

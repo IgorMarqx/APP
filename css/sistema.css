@@ -1,0 +1,51 @@
+:root{
+    --main-bg-color: #1C1E28;
+    --second-bg-color:#191921;
+    --main-text-color: #fff;
+    --second-text-color: #61DAFB;
+    --hover-text-color:#393939;
+}
+
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+.header{
+    background-color: var(--main-bg-color);
+}
+
+.header header{
+    display: flex;
+    align-items: center;
+}
+
+.links, .control{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.links, .control a{
+    color: var(--main-text-color);
+    text-decoration: none;
+    
+    font-size: 1rem;
+    transition: all .5s;
+}
+
+.control a:hover{
+    color: var(--main-text-color);
+    opacity: .8;
+}
+
+.links, .control i{
+    color: var(--main-text-color);
+    font-size: .8rem;
+}
+
+.home, .dashboard a{
+    display: flex;
+    align-items: center;
+
+    gap: .15rem;
+}

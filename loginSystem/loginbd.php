@@ -5,7 +5,7 @@ session_start();
 
 if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])){
     // acessa sistema
-    include_once('./config.php');
+    include_once('../config.php');
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
@@ -21,13 +21,13 @@ if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])
     if(mysqli_num_rows($resultado) < 1){
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: ./index.php');
+        header('Location: ../index.php');
     }else{
         $_SESSION['email'] = $email;
         $_SESSION['senha'] = $senha;
-        header('Location: ./app.php');
+        header('Location: ../sistema/app.php');
     }
 }else{
     // não deixa acessar
-    header('location: ./index.php');
+    header('location: ../index.php');
 }
