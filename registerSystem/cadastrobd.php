@@ -19,22 +19,6 @@ if (mysqli_num_rows($resultado) == 1) {
     header("Refresh: 0, ../index.php");
     $inserir = mysqli_query($conn, "INSERT INTO registrar (email, senha) VALUES ('$email', '$senha')");
 }
-if (mysqli_num_rows($resultado) == 1) {
-    echo "<script>alert('E-mail já cadastrado')</script>";
-    header("Refresh: 0, ./cadastro.php");
-} else {
-    echo "<script>alert('Cadastrado com sucesso')</script>";
-    header("Refresh: 0, ../index.php");
-    $inserir = mysqli_query($conn, "INSERT INTO registrar (email, senha) VALUES ('$email', '$senha')");
-}
-if (mysqli_num_rows($resultado) == 1) {
-    echo "<script>alert('E-mail já cadastrado')</script>";
-    header("Refresh: 0, ./cadastro.php");
-} else {
-    echo "<script>alert('Cadastrado com sucesso')</script>";
-    header("Refresh: 0, ../index.php");
-    $inserir = mysqli_query($conn, "INSERT INTO registrar (email, senha) VALUES ('$email', '$senha')");
-}
 
 // if($inserir){
 //     echo "<script>alert('Cadastrado com sucesso')</script>";
