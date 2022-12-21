@@ -20,6 +20,8 @@ if (mysqli_num_rows($resultado) == 1) {
     $inserir = mysqli_query($conn, "INSERT INTO registrar (email, senha) VALUES ('$email', '$senha')");
 }
 
+#teste
+
 // if($inserir){
 //     echo "<script>alert('Cadastrado com sucesso')</script>";
 //     header("Refresh: 0, ../index.php");
